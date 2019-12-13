@@ -14,5 +14,10 @@ def home(request):
         <p>Alors combien ça coûte ?</p>
     """)
 
+
 def fruit(request, fruit):
     return render(request, 'front_app/fruit.html', {'fruit': fruit})
+
+
+def vegetable(request, vegetable):
+    return render(request, 'front_app/vegetable.html', {'vegetable': vegetable})
