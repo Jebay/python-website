@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="/media/css/style.css" />
+    <title>{% block title %}Trouvez le prix juste des fruits et légumes{% endblock %}</title>
+</head>
+<body>
+<header>Bienvenu</header>
+<nav>
+    {% block nav %}
+        <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/fruit/">Fruits</a></li>
+            <li><a href="/vegetable/">Légumes</a></li>
+        </ul>
+    {% endblock %}
+</nav>
+<section id="content">
+    {% block content %}{% endblock %}
+</section>
+<footer>&copy; Fruits et légumes au juste prix</footer>
+</body>
+</html>

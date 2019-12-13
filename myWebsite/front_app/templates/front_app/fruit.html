@@ -1,2 +1,6 @@
-<h1>{{ fruit }}</h1>
-<p>Son prix est de : 5€</p>
+{% extends "base.html" %}
+{% block title %}Fruits{% endblock %}
+{% block content %}
+    <h1>{{ fruit }}</h1>
+    <p>Son prix est de : 5€</p>
+{% endblock %}
