@@ -16,9 +16,3 @@ def home(request):
 
 def fruit(request, fruit):
     return render(request, 'front_app/fruit.html', {'fruit': fruit})
-#
-# def fruit(request):
-#     HttpResponse("""
-#         <p>fruit 1</p>
-#         <p>fruit 2</p>
-#     """)
