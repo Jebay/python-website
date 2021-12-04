@@ -5,8 +5,8 @@ chardet==3.0.4
 Click==7.1.1
 colorama==0.4.3
 idna==2.9
-Django==3.0.4
+Django==3.0.10
 pytz==2019.3
 requests==2.23.0
 soupsieve==2.0
-urllib3==1.25.8
+urllib3==1.26.5
